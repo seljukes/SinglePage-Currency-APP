@@ -9,7 +9,7 @@ window.addEventListener('load', () => {
 
   // Instantiate api handler
   const api = axios.create({
-    baseURL: 'http://localhost:3000/api',
+    baseURL: 'http://192.168.1.70:80/api',
     timeout: 5000,
   });
 
